@@ -28,7 +28,7 @@ Son muchas cosas, por lo que dividiremos el proyecto, como solemos hacer, en var
 6. Añade un nuevo componente llamado `TagsMenu` que contenga todas las etiquetas o categorías de la aplicación. Cuando se haga click en una de ellas, se renderizarán exclusivamente las tareas que contengan dicha etiqueta.
 
 ### Consejos
-1. Lo primero que deberías hacer es crear el repositorio en GitHub. Es importante que trabajes con `branches`, ya que conforme los proyectos se van complicando, es más fácil cometer un error fatal y que la aplicación deje de funcionar. Las ramas de git te ayudarán a evitar que eso ocurra.
+1. Lo primero que deberías hacer es crear el repositorio en GitHub.
 2. Sigue las iteraciones en orden y, por lo que más queráis, **_leed bien el enunciado_**.
 3. Sé que esto que voy a decir es como predicar en el desierto, pero deberíais diseñar y planificar la aplicación antes de empezar a programar. Pensad en cómo van a relacionarse los componentes, que `props` van a pasar y recibir, qué va a hacer cada uno, etc. La mitad de los problemas que vais a tener se pueden solucionar antes de empezar a teclear si os paráis 20 mins a pensar antes.
 4. Las tareas deberán guardarse en un estado de React. Dado que habrá que guardar mucha información (texto, fecha, prioridad, etc.), cada tarea deberá ser un objeto necesariamente. Hazlo así desde el principio y no tendrás problemas más adelante cambiando código en distintos componentes.
